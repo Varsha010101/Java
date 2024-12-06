@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GradeAssigner {
+public class Q6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,5 +28,6 @@ public class GradeAssigner {
         }
 
         System.out.println("Your grade is: " + grade);
+        scanner.close();
     }
 }
