@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VotingEligibilityChecker {
+public class Q2{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,5 +12,6 @@ public class VotingEligibilityChecker {
         } else {
             System.out.println("You are not eligible to vote.");
         }
+        scanner.close();
     }
 }
